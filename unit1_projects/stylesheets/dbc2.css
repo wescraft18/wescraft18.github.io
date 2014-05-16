@@ -9,11 +9,17 @@ a:link {
 	color: #FA1105;
 }
 a:visited {
-	color: #07735F;
+	color: #FA000C;
 }
 a:hover {
 	color: #FFFFFF;
 	text-decoration: underline;
+}
+div ul:nth-child(2) {
+	font-family: Georgia, serif;
+}
+div ul:last-child {
+	font-family: Impact, Charcoal, sans-serif;
 }
 .main {
 	border: 4px solid #000000;
