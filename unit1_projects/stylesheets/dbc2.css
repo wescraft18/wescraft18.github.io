@@ -5,6 +5,16 @@ body {
 	border-radius: 5px;
 	padding: 2px;
 }
+a:link {
+	color: #FA1105;
+}
+a:visited {
+	color: #07735F;
+}
+a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
 .main {
 	border: 4px solid #000000;
 	border-radius: 5px;
@@ -18,6 +28,7 @@ body {
 	display:inline-block;
 }
 #name {
+	color: #000000;
 	position: absolute;
 }
 #header {
@@ -27,11 +38,15 @@ body {
 	margin-bottom: 10px;
 	position: relative;
 }
+#wrapper {
+	overflow: auto;
+}
 #side_bar {
 	width: 200px;
 	height: 500px;
 	background-color: #8AC1ED;
 	float: left;
+	clear: left;
 	margin-bottom: 10px;
 	
 }
@@ -40,6 +55,7 @@ body {
 	height: 500px;
 	background-color: #07F5D5;
 	margin: auto;
+	float: left;
 	position: relative;
 
 }
@@ -52,5 +68,3 @@ body {
 	width: 500px;
 	height: 75%;
 }
-
-
