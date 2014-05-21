@@ -1,0 +1,31 @@
+#wrapper {
+	width: 800px;
+	position: relative;
+	margin: 0 auto;
+}
+#header {
+	width: 800px;
+	height: 100px;
+	color: #FFFFFF;
+	background-color: #FF9648;
+	border-bottom: 3px solid #000000;
+}
+#content {
+	width: 800px;
+	height: 700px;
+}
+#footer {
+	width: 800px;
+	height:80px;
+	color: #FFFFFF;
+	background-color: #48ffec;
+	text-align: left;
+}
+#head_content {
+	text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+#content_header {
+	text-align: center;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
